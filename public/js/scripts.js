@@ -25,69 +25,69 @@ $(function () {
 
 
 
-    var $tis = this,
-        $wrapper = $('#wrapper'),
-        $navMobile,
-        etype = $.browser.mobile ? 'touchstart' : 'click';
-        w = $(window).innerWidth();
+    // var $tis = this,
+    //     $wrapper = $('#wrapper'),
+    //     $navMobile,
+    //     etype = $.browser.mobile ? 'touchstart' : 'click';
+    //     w = $(window).innerWidth();
 
 
-    if (w <= 975 && !$tis.mobMenuFlag) {
+    // if (w <= 975 && !$tis.mobMenuFlag) {
 
-        $('body').prepend('<nav class="nav-mobile"><i class="fa fa-times"></i><h2><i class="fa fa-bars"></i>' + $tis.mobileMenuTitle + '</h2><ul></ul></nav>');
+    //     $('body').prepend('<nav class="nav-mobile"><i class="fa fa-times"></i><h2><i class="fa fa-bars"></i>' + $tis.mobileMenuTitle + '</h2><ul></ul></nav>');
 
-        $('.nav-mobile > ul').html($('.nav').html());
+    //     $('.nav-mobile > ul').html($('.nav').html());
 
-        $('.nav-mobile b').remove();
+    //     $('.nav-mobile b').remove();
 
-        $('.nav-mobile ul.dropdown-menu').removeClass().addClass("dropdown-mobile");
+    //     $('.nav-mobile ul.dropdown-menu').removeClass().addClass("dropdown-mobile");
 
-        //$('.nav-mobile').css({'min-height': ($('#wrapper').height() + 270) + 'px' });
+    //     //$('.nav-mobile').css({'min-height': ($('#wrapper').height() + 270) + 'px' });
 
-        $navMobile = $(".nav-mobile");
+    //     $navMobile = $(".nav-mobile");
 
-        $("#nav-mobile-btn").bind(etype, function (e) {
-            e.stopPropagation();
-            e.preventDefault();
+    //     $("#nav-mobile-btn").bind(etype, function (e) {
+    //         e.stopPropagation();
+    //         e.preventDefault();
 
-            setTimeout(function () {
-                $wrapper.addClass('open');
-                $navMobile.addClass('open');
-                $navMobile.getNiceScroll().show();
-            }, 25);
+    //         setTimeout(function () {
+    //             $wrapper.addClass('open');
+    //             $navMobile.addClass('open');
+    //             $navMobile.getNiceScroll().show();
+    //         }, 25);
 
-            $(document).bind(etype, function (e) {
-                if (!$(e.target).hasClass('nav-mobile') && !$(e.target).parents('.nav-mobile').length) {
-                    $wrapper.removeClass('open');
-                    $navMobile.removeClass('open');
-                    $(document).unbind(etype);
-                    $.waypoints('enable');
-                }
-            });
+    //         $(document).bind(etype, function (e) {
+    //             if (!$(e.target).hasClass('nav-mobile') && !$(e.target).parents('.nav-mobile').length) {
+    //                 $wrapper.removeClass('open');
+    //                 $navMobile.removeClass('open');
+    //                 $(document).unbind(etype);
+    //                 $.waypoints('enable');
+    //             }
+    //         });
 
-            $('>i', $navMobile).bind(etype, function () {
-                $navMobile.getNiceScroll().hide();
-                $wrapper.removeClass('open');
-                $navMobile.removeClass('open');
-                $(document).unbind(etype);
-                $.waypoints('enable');
-            });
-        });
+    //         $('>i', $navMobile).bind(etype, function () {
+    //             $navMobile.getNiceScroll().hide();
+    //             $wrapper.removeClass('open');
+    //             $navMobile.removeClass('open');
+    //             $(document).unbind(etype);
+    //             $.waypoints('enable');
+    //         });
+    //     });
 
-        $navMobile.niceScroll({
-            autohidemode: true,
-            cursorcolor: "#c2c2c2",
-            cursoropacitymax: "0.7",
-            cursorwidth: 10,
-            cursorborder: "0px solid #000",
-            horizrailenabled: false,
-            zindex: "1"
-        });
+    //     $navMobile.niceScroll({
+    //         autohidemode: true,
+    //         cursorcolor: "#c2c2c2",
+    //         cursoropacitymax: "0.7",
+    //         cursorwidth: 10,
+    //         cursorborder: "0px solid #000",
+    //         horizrailenabled: false,
+    //         zindex: "1"
+    //     });
 
-        $navMobile.getNiceScroll().hide();
+    //     $navMobile.getNiceScroll().hide();
 
-        $tis.mobMenuFlag = true;
-    }
+    //     $tis.mobMenuFlag = true;
+    // }
 
 
 	
