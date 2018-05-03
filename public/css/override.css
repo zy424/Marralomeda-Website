@@ -266,17 +266,34 @@ btn-lg, .btn-group-lg>.btn {
 
 .home-main{
     padding-top: 0;
-    padding-right:75px;
+    padding-right:25px;
+    
 }
 
 .home-main p {
-    font-size: 16px;
+    font-size: 20px;
     padding-bottom: 20px;
+    color:rgb(32, 151, 202);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 150%;
+}
+
+.home-main h1 {
+    color:rgb(32, 151, 202);
 }
 
 .home-side{
     padding-top: 0;
 }
+
+.home-philosophy {
+    background-color: #F5F5F5;
+    padding: 0 75px 50px 75px;
+    margin-top: 100px;
+    border-radius: 0.5em;
+    border: 1px solid rgb(32, 151, 202);
+}
+
 nav .current {
     border-bottom: 2px solid #3D96D5;
 }

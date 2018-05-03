@@ -30,5 +30,17 @@
 	</header>
 	$Layout
 	<% include Footer %>
+
+	<script>
+		$(function(){
+			AOS.init({
+			offset: 200,
+			duration: 800,
+			easing: 'ease-in-sine',
+			delay: 100,
+			});
+		});
+	</script>
 </body>
+
 </html>

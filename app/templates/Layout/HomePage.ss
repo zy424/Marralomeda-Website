@@ -56,6 +56,7 @@
 		
 			<!-- BEGIN MAIN CONTENT -->
 			<div class="main home-main col-sm-8">
+			<div class= "home-philosophy" data-aos="flip-left"> 
 			<h1 class="section-title">Marralomeda Philosophy</h1>
 				<div data-aos="zoom-in">
 					<p>
@@ -68,6 +69,8 @@
 						Because Marralomeda is a Christian community, prayer is part of daily experience.
 					</p>
 				</div>
+
+				<div data-aos="zoom-in">
 					<p>
 						There is no hierarchy of importance at Marralomeda. Each person in the community is accepted as they are and valued for who they are, their gift is precious to the community. Each person is accepted as “the light of Christ”.
 					</p>
@@ -77,14 +80,19 @@
 					<p>
 						Marralomeda is not only a facility for persons with intellectual disability, it is a community where people come together to grow in bonds of friendship. 
 					</p>
+				</div>
+
+				<div data-aos="zoom-in">
 					<p>
 						Through walking with each other as we journey through the dailyness of our lives we celebrate our gifts and support each other in our various disabilities. 
 					</p>
+				</div>	
+
+				<div data-aos="zoom-in">
 					<p>
 						No one person has all the gifts to make the community truly alive, therefore we rely on one another. Our intellectually disabled members often reveal to us our own preoccupation with the so-called “important” things of life and can forget how to enjoy life, to celebrate and to cherish relationships in a simple way. 
 
-					</p>
-					
+					</p>	
 				</div>
 				
 				<div data-aos="zoom-in">
@@ -92,28 +100,36 @@
 						Central to our philosophy is the concept of empowerment. We seek to empower our community members to choose and decide for themselves and to contribute to all tasks pertaining to the running of their home and community to the level possible for each individual.
 
 					</p>
+				</div>
+
+				<div data-aos="zoom-in">
 					<p>
 						We believe in community integration and encourage our community members to participate in activities within the wider community and offer support to enable this to happen.
 					</p>
+				</div>
+
+				<div data-aos="zoom-in">
 					<p>
 						Hospitality is also central to Marralomeda philosophy. Whoever comes to the door is welcomed in an appropriate way and made to feel valued and important. 
 					</p>
+				</div>
+
+				<div data-aos="zoom-in">
 					<p>
 					We believe the busyness of daily life must never overtake the unexpected call to welcome.
 					</p>
-					
 				</div>
-				<br><br>
+				
+			
 				<div data-aos="flip-left">
 					<p>
-						“TO LOVE PEOPLE IS TO RECOGNISE THEIR GIFT AND TO HELP THEM USE IT AND DEEPEN IT. A COMMUNITY IS BEAUTIFUL WHEN ALL ITS MEMBERS ARE USING THEIR TALENTS FULLY”.--                  Jean Vanier.
+						“TO LOVE PEOPLE IS TO RECOGNISE THEIR GIFT AND TO HELP THEM USE IT AND DEEPEN IT. A COMMUNITY IS BEAUTIFUL WHEN ALL ITS MEMBERS ARE USING THEIR TALENTS FULLY”.--  Jean Vanier.
+					</p>	
+				</div>
 
-
-					</p>
-					
 				</div>
 			
-				
+				<br><br><br><br><br>
 				
 				<div class="grid-style1 clearfix">
 					<div class="item col-md-4">
@@ -316,13 +332,3 @@
 </div>
 <!-- END CONTENT WRAPPER -->
 
-<script>
-$(function(){
-	AOS.init({
-      offset: 200,
-      duration: 800,
-      easing: 'ease-in-sine',
-      delay: 100,
-    });
-});
-</script>
