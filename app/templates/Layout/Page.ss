@@ -1,5 +1,5 @@
 
-		<% include Banner %>		
+				
 		<!-- BEGIN CONTENT -->
 		<div class="content">
 			<div class="container">
@@ -20,6 +20,6 @@
 						<% end_if %>
 					</div>
 				</div>
-			</div>
+			</div><% include Banner %>
 		</div>
 		<!-- END CONTENT -->

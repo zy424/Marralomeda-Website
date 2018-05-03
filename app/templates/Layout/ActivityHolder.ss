@@ -14,8 +14,7 @@
       <div class=" acontent row">
         <div class="col-sm-8">
           <h2 class="mt-4  activity ">What We Do</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.</p>
+          <p>$Content</p>
           <p>
             <a class="btn btn-primary btn-lg" href="contact-us">Click to Join Us &raquo;</a>
           </p>
@@ -46,7 +45,7 @@
         <% loop $Children %>
             <div class="col-lg-4 col-sm-6 card-margin">
                 <div class="card card-img">
-                    <a href="#" > 
+                    <a href=$Link > 
                     <div class="card-shadow card-img-top">
                         <p> Find Out More! </p>
                     </div>
@@ -57,12 +56,82 @@
                 </div>
                 <div class="card-body">
                     <h4 class="card-title">$Name</h4>
-                    <p class="card-text">$Teaser</p>
                 </div>
             </div>
         <% end_loop %>
       </div>
       <!-- /.row -->
+
+<!-- gallery -->
+       <div class="row  text-lg-left">
+          <div class="col-sm-12">
+            <h2 class="page-header activity">Our Activities Gallery</h2>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6 activity-gallery">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 activity-gallery">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 activity-gallery">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 activity-gallery">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 activity-gallery">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 activity-gallery">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6  activity-gallery">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail " src="http://placehold.it/400x300" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 activity-gallery">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 activity-gallery">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 activity-gallery">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 activity-gallery">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 activity-gallery">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+          </a>
+        </div>
+
+
+      </div>
+      <!-- /.row-gallery -->    
 
     </div>
     <!-- /.container -->

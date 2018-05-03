@@ -24,13 +24,11 @@
 </head>
 
 <body>
-	<div id="wrapper">
-		<header id="header">
-			<% include TopBar %>
-			<% include MainNav %>
-		</header>
-	 	$Layout
-		<% include Footer %>		
-	</div>
+	<header id="header">
+		<% include TopBar %>
+		<% include MainNav %>
+	</header>
+	$Layout
+	<% include Footer %>
 </body>
 </html>
