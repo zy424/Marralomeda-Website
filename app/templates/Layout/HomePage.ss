@@ -62,9 +62,12 @@
 						Marralomeda is a Christian community. We believe that each person with an intellectual disability is fully a person with all the rights of a human being and above all the right to be loved, recognised and respected for him/herself.
 					</p>
 				</div>
+
+				<div data-aos="zoom-in">
 					<p>
 						Because Marralomeda is a Christian community, prayer is part of daily experience.
 					</p>
+				</div>
 					<p>
 						There is no hierarchy of importance at Marralomeda. Each person in the community is accepted as they are and valued for who they are, their gift is precious to the community. Each person is accepted as “the light of Christ”.
 					</p>
