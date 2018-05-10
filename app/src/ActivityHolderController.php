@@ -8,4 +8,6 @@
         {
             return DataObject::get('Gallery','IsActive=1',$sort="Created asc");
         }
+
+       
     }

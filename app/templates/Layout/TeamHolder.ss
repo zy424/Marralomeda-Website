@@ -6,8 +6,8 @@
 						<h1 class="page-title">$Title</h1>
 						
 						<div class="breadcrumb">
-							<a href="#">Home </a> &raquo;
-							<a href="#">Our Team</a>
+							<a href=home>Home </a> &raquo;
+							<a href="#">$Title</a>
 						</div>
 					</div>
 				</div>
@@ -30,7 +30,7 @@
                 <h3>$Name
                     <small>$JobTitle</small>
                 </h3>
-                <p>$Teaser</p>
+                <p data-aos="zoom-in">$Teaser</p>
             </div>
         </div>
     <% end_loop %>

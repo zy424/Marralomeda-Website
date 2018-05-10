@@ -9,6 +9,11 @@
                     <div class="col-sm-12">
                         <h2 class="page-header  second-header center">Our $Name Programme</h2>
                     </div>
+					<div >
+						<% with $Photo.Fit(700,500) %>
+							<img class="my-custom-class" src="$URL" alt="" width="$Width" height="$Height" />
+						<% end_with %>
+					</div>
                         <p>$Teaser</p>
                         $Content
                         $Form
@@ -16,8 +21,8 @@
 					
 					<div class="second-aside col-sm-4">
 						<% if $Menu(2) %>
-                            <img src="images/logo2.png">
- 							<h3>Activity Centre Programme</h3>
+                            <a href=home><img src="images/logo2.png"></a>
+ 							<h3><a href="activity-center">Activity Centre </a></h3>
     						<ul class="subnav">  
     							<% loop $Menu(2) %>
         							<li><a class="$LinkingMode" href="$Link">$MenuTitle</a></li>

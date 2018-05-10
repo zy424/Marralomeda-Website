@@ -56,6 +56,10 @@ btn-lg, .btn-group-lg>.btn {
     
 }
 
+.breadcrumb {
+    color:#fff;
+}
+
 
 /* Aboutus
 ---------------------------------*/
@@ -235,6 +239,11 @@ btn-lg, .btn-group-lg>.btn {
 
 .card-margin {
     margin-bottom: 50px;
+    
+}
+
+.card-img-top {
+    border-radius: 0.5em;
 }
 
 .activity-gallery {
@@ -314,12 +323,15 @@ nav .current {
    color:#3D96D5;
  }
 
+
+
  /* Secondary Page
 ---------------------------------*/
 
 .second-aside {
     background-color: #F5F5F5;
-    height:100vh; 
+    padding-bottom:50px;
+    height:120vh; 
 }
 
 .second-aside .current {
@@ -376,5 +388,14 @@ nav .current {
 
 ul.subnav {
     padding-left: 0;
+}
+
+ /* Blog Page
+---------------------------------*/
+.blog-side {
+    background-color: #F5F5F5;
+    padding-bottom:50px;
+    padding-top:10px;
+    
 }
 

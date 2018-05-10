@@ -29,7 +29,7 @@
 					
 				<div class="sidebar gray col-sm-4">
 					
-           		 <div class="aside">
+           		 <div class="aside" data-aos="flip-left">
                 	<p>“To love people is to recognise their gift and help then use it and deepen it.  A community is  beautiful when all its members are using their talents fully”.<small>--Jean Vanier</small></p>.
 				</div>
 			<!--

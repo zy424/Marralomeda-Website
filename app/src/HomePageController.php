@@ -11,5 +11,14 @@ class HomePageController extends PageController
             ->sort('Created', 'DESC')
             ->limit($count);
     }
+
+    public function PopularActivities($count = 6) 
+    {
+      return ActivityPage::get()
+            ->sort('Created', 'DESC')
+            ->limit($count);
+    }
+
+    
    
 }

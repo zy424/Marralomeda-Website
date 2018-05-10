@@ -130,146 +130,8 @@
 				</div>
 			
 				<br><br><br><br><br>
-				
-				<div class="grid-style1 clearfix">
-					<div class="item col-md-4">
-						<div class="image">
-							<a href="properties-detail.html">
-								<h3>Luxury Apartment with great views</h3>
-								<span class="location">Upper East Side, New York</span>
-							</a>
-							<img src="http://placehold.it/760x670" alt="" />
-						</div>
-		
-						<ul class="amenities">
-							<li><i class="icon-bedrooms"></i> 4</li>
-							<li><i class="icon-bathrooms"></i> 3</li>
-						</ul>
-					</div>
-					
-					<div class="item col-md-4">
-						<div class="image">
-							<a href="properties-detail.html">
-								<h3>Stunning Villa with 5 bedrooms</h3>
-								<span class="location">Miami Beach, Florida</span>
-							</a>
-							<img src="http://placehold.it/760x670" alt="" />
-						</div>
-						<div class="price">
-							<span>$1,300</span><p>per night<p>
-						</div>
-						<ul class="amenities">
-							<li><i class="icon-bedrooms"></i> 5</li>
-							<li><i class="icon-bathrooms"></i> 2</li>
-						</ul>
-					</div>
-					
-					<div class="item col-md-4">
-						<div class="image">
-							<a href="properties-detail.html">
-								<h3>Recent construction with 3 bedrooms</h3>
-								<span class="location">Park Slope, New York</span>
-							</a>
-							<img src="http://placehold.it/760x670" alt="" />
-						</div>
-						<div class="price">
-							<span>$560</span><p>per night<p>
-						</div>
-						<ul class="amenities">
-							<li><i class="icon-bedrooms"></i> 3</li>
-							<li><i class="icon-bathrooms"></i> 2</li>
-						</ul>
-					</div>
-					
-					<div class="item col-md-4">
-						<div class="image">
-							<a href="properties-detail.html">
-								<h3>Modern construction with parking space</h3>
-								<span class="location">Midtown, New York</span>
-							</a>
-							<img src="http://placehold.it/760x670" alt="" />
-						</div>
-						<div class="price">
-							<span>$85</span><p>per night<p>
-						</div>
-						<ul class="amenities">
-							<li><i class="icon-bedrooms"></i> 1</li>
-							<li><i class="icon-bathrooms"></i> 2</li>
-						</ul>
-					</div>
-					
-					<div class="item col-md-4">
-						<div class="image">
-							<a href="properties-detail.html">
-								<h3>Single Family Townhouse</h3>
-								<span class="location">Cobble Hill, New York</span>
-							</a>
-							<img src="http://placehold.it/760x670" alt="" />
-						</div>
-						<div class="price">									
-							<span>$840</span><p>per night<p>
-						</div>
-						<ul class="amenities">
-							<li><i class="icon-bedrooms"></i> 2</li>
-							<li><i class="icon-bathrooms"></i> 2</li>
-						</ul>
-					</div>
-					
-					<div class="item col-md-4">
-						<div class="image">
-							<a href="properties-detail.html">
-								<h3>3 bedroom villa with garage for rent</h3>
-								<span class="location">Bal Harbour, Florida</span>
-							</a>
-							<img src="http://placehold.it/760x670" alt="" />
-						</div>
-						<div class="price">									
-							<span>$150</span><p>per night<p>
-						</div>
-						<ul class="amenities">
-							<li><i class="icon-bedrooms"></i> 3</li>
-							<li><i class="icon-bathrooms"></i> 2</li>
-						</ul>
-					</div>
-				</div>
-
-				
-				
-				
-				
-
-				
-				
-				<h1 class="section-title">Recent Articles</h1>
-				<div class="grid-style1">
-					<% loop $LatestArticles(3) %>
-					<div class="item col-md-4">
-						<div class="image">
-							<a href="$Link">
-								<span class="btn btn-default"><i class="fa fa-file-o"></i> Read More</span>
-							</a>
-							$Photo.Fit(220,148)
-						</div>
-						<div class="tag"><i class="fa fa-file-text"></i></div>
-						<div class="info-blog">
-							<ul class="top-info">
-								<li><i class="fa fa-calendar"></i> $Date</li>
-								<li><i class="fa fa-comments-o"></i> 2</li>
-								<li><i class="fa fa-tags"></i> $CategoriesList</li>
-							</ul>
-							<h3>
-								<a href="$Link">$Title</a>
-							</h3>
-							<p>  <% if $Teaser %>$Teaser<% else %>$Content.FirstSentence<% end_if %></p>
-						</div>
-					</div>
-					<% end_loop %>
-				</div>
-
-				
-				
-				<div class="center"><a href="#" class="btn btn-default-color">View All News</a></div>
 			</div>
+				
 			<!-- END MAIN CONTENT -->
 			
 			<!-- BEGIN SIDEBAR -->
@@ -277,13 +139,13 @@
 				
 				<!-- BEGIN SIDEBAR ABOUT -->
 				<div class="col-sm-12">
-					<h2 class="section-title">Lastest News</h2>
+					<h2 class="section-title">Lastest Articles</h2>
 					<ul class="latest-news">
-					<% loop $LatestArticles(3) %>
+					<% loop $LatestArticles(4) %>
 					<li class="col-md-12">
 						<div class="image">
 							<a href=$Link></a>
-							$Photo.Fit(100,100)
+							$Photo.Fit(70,70)	
 						</div>
 						
 						<ul class="top-info">
@@ -291,34 +153,31 @@
 						</ul>
 							
 						<h4>$Title</h4>
-						<p>$Teaser</p>
+						<p>$CategoriesList</p>
 					</li>	
 					<% end_loop %>
-					<div class="center"><a href="#" class="btn btn-default-color">View All News</a></div>
+					</ul>
+					<div class="center"><a href="blog" class="btn btn-default-color">View All</a></div>
 					
 				</div>
 				<!-- END SIDEBAR ABOUT -->
 				
 				
 				<div class="col-sm-12">
-					<h2 class="section-title">Activity</h2>
+					<h2 class="section-title"> Popular Activities</h2>
 					<ul class="activity">
+						<% loop $PopularActivities(5) %>
 						<li class="col-lg-12">
-							<a href="#"><img src="http://placehold.it/70x70" alt="" /></a>
+							<a href=$Link>
+								$Photo.Fit(100,100)
+							</a>
 							<div class="info">										
-								<h5>Sam Minnée reviewed <a href="#">The House With No Windows</a></h4>
-								<p>Awesome solitary confinement, mate. Spot on. Sweet as.</p>
-								<h6>Just now</h6>
+								<h5>$Name</a></h4>
+								<p>$Teaser</p>
+								<h6>Join us now</h6>
 							</div>
 						</li>
-						<li class="col-lg-12">
-							<a href="#"><img src="http://placehold.it/70x70" alt="" /></a>
-							<div class="info">
-								<h5>Ingo Schoomer asked a question about <a href="#">The Mistake by the Lake</a></h4>
-								<p>Has this house been unit tested?</p>
-								<h6>37 minutes ago</h6>
-							</div>
-						</li>
+						<% end_loop %>
 					</ul>
 				</div>
 				

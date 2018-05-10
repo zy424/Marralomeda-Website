@@ -20,7 +20,8 @@
 		<div class="content">
 			<div class="container">
 				<div class="row">
-					<div class="main col-sm-6 contactus">						
+					<div class="main col-sm-6 contactus">
+                        <h2>Contact Form</h2>						
 						<p> $Content</p>
                         <div class="contact-form">
                                 <div  class="col-sm-12">

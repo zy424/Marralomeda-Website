@@ -6,14 +6,20 @@
     use SilverStripe\Forms\TextareaField;
     use SilverStripe\Forms\FormAction;
     use SilverStripe\Forms\RequiredFields;
+    use SilverStripe\Control\HTTPRequest;
+    use SilverStripe\ORM\PaginatedList;
+    use SilverStripe\ORM\FieldType\DBField;
 
     class ArticlePageController extends \PageController
-    {
+    {   
+
+        
         private static $allowed_actions = [
             'CommentForm',
+            'category'
         ];
-    
-    
+
+    //START COMMENTFORM
         public function CommentForm()
         {
             
@@ -76,4 +82,42 @@
 
             return $this->redirectBack();
         }
+    //END COMMENTFORM
+
+
+    //START LATEST ARTICLES
+
+        public function LatestArticles($count = 3) 
+        {
+            return ArticlePage::get()
+                ->sort('Created', 'DESC')
+                ->limit($count);
+        }
+    //END LATEST ARTICLES
+
+
+    //START CATEGORY FILTER
+
+        public function category (HTTPRequest $r)
+        {
+            $category = ArticleCategory::get()->byID(
+                $r->param('ID')
+            );
+
+            if(!$category) {
+                return $this->httpError(404,'That category was not found');
+            }
+
+            $this->articleList = ArticlePage::get()->filter([
+                'ParentID' => $this->ID,
+                'Categories.ID' => $category->ID
+            ])->sort('Date DESC');
+
+            return [
+                'SelectedCategory' => $category
+            ];
+        }
+    //END CATEGORY FILTER
+
+
     }
