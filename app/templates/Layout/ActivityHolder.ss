@@ -32,7 +32,7 @@
         (03) 352-8292
         <br>
         <abbr title="Email">E:</abbr>
-        <a href="mailto:#">admin@marralomeda.org.nz</a>
+        <a href="mailto:admin@marralomeda.org.nz">admin@marralomeda.org.nz</a>
       </address>
     </div>
   </div>

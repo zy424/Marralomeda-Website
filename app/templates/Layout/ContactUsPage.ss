@@ -46,7 +46,7 @@
                 </div>
                 <div class="contactmessage">
                     <h3><i class="fa fa-pencil"></i>email:</h3>
-                    <span>admin@marralomeda.org.nz</span>
+                    <span><a href="mailto:admin@marralomeda.org.nz">admin@marralomeda.org.nz</a></span>
                 </div>
                 <div class="contactmessage">
                     <h3><i class="fa fa-map-marker"></i>Address:</h3>

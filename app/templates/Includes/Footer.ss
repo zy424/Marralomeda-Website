@@ -29,7 +29,7 @@
 						
 							<br>
 							<abbr title="Email">E:</abbr>
-							<a href="mailto:#">admin@marralomeda.org.nz</a>
+							<a href="mailto:admin@marralomeda.org.nz">admin@marralomeda.org.nz</a>
 						</address>
 					</div>
 					<div class="block col-sm-3">
