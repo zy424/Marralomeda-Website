@@ -25,7 +25,6 @@
 
 <body>
 	<header id="header">
-		<% include TopBar %>
 		<% include MainNav %>
 	</header>
 	$Layout

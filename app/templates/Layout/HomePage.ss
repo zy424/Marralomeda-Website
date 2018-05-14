@@ -139,7 +139,7 @@
 				
 				<!-- BEGIN SIDEBAR ABOUT -->
 				<div class="col-sm-12">
-					<h2 class="section-title">Lastest Articles</h2>
+					<h2 class="section-title">Latest Articles</h2>
 					<ul class="latest-news">
 					<% loop $LatestArticles(4) %>
 					<li class="col-md-12">

@@ -65,7 +65,7 @@
   <!-- gallery -->
     <div class="row  text-lg-left">
       <div class="col-sm-12">
-        <h2 class="page-header activity">Our Activities Gallery</h2>
+        <h2 class="page-header activity">Our Activity Gallery</h2>
       </div>
       <% loop $GalleryImages %>
 
