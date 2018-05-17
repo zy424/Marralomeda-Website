@@ -7,6 +7,7 @@
     use SilverStripe\Forms\PhoneNumberField;
     use SilverStripe\Forms\FormAction;
     use SilverStripe\Forms\RequiredFields;
+    use Mailgun\Mailgun;
 
     class ContactUsPageController extends \PageController
     {
@@ -68,7 +69,19 @@
             $form->saveInto($message);
             $message->write();
             $session->clear("FormData.{$form->getName()}.data");
-       
+
+            # First, instantiate the SDK with your API credentials
+            $mg = Mailgun::create('key');
+            $domain = "domain";
+
+            # Now, compose and send your message.
+            # $mg->messages()->send($domain, $params);
+            $mg->messages()->send($domain, [
+                'from'    => "Customer <$message->Email>",
+                'to'      => "test@gmail.com",
+                'subject' => "Contact from $message->Name",
+                'text'    => "Customer phone: $message->Phone\n\n$message->Message"
+            ]);
 
             $form->sessionMessage('Thanks for your message','good');
 
