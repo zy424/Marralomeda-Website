@@ -22,9 +22,9 @@
 		<div class="content">
 			<div class="container">
 				<div class="row">
-					<div class="main col-sm-8 about-us"">						
+					<div class="main col-sm-8 about-us">						
 							<h1 class="section-title">Marralomeda</h1>
-							<p >$Content<p>
+							<p id="">$Content<p>
 					</div>
 					
 				<div class="sidebar gray col-sm-4">

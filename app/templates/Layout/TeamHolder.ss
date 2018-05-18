@@ -30,7 +30,7 @@
                 <h3>$Name
                     <small>$JobTitle</small>
                 </h3>
-                <p data-aos="zoom-in">$Teaser</p>
+                <p>$Teaser</p>
             </div>
         </div>
     <% end_loop %>

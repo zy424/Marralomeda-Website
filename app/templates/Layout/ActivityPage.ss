@@ -21,8 +21,8 @@
 					
 					<div class="second-aside col-sm-4">
 						<% if $Menu(2) %>
-                            <a href=home><img src="images/logo2.png"></a>
- 							<h3><a href="activity-center">Activity Centre </a></h3>
+    
+ 							<h3><a href="activity-center">Activity Centre Programme </a></h3>
     						<ul class="subnav">  
     							<% loop $Menu(2) %>
         							<li><a class="$LinkingMode" href="$Link">$MenuTitle</a></li>

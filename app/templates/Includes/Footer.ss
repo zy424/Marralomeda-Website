@@ -2,7 +2,7 @@
 		<footer id="footer">
 			<div id="footer-top" class="container">
 				<div class="row">
-					<div class="block col-sm-3">
+					<div class="block col-sm-3 footer-p">
 						
 						<h3>Employment</h3>
 						<p>Marralomeda employs people in a variety of roles to support our Community Members.  We are often looking for Community Support Workers, Residential Assistants and Volunteers.</P>  
@@ -10,13 +10,13 @@
 						</p>
 					</div>
 					
-					<div class="block col-sm-3">
+					<div class="block col-sm-3 footer-p">
 						<h3>Funding</h3>
 						<p>Marralomeda is a non-profit Charitable Trust which is governed by a voluntary Board of Trustees. Legacies or donations in support of Marralomeda Charitable Trust Inc. will be most gratefully received.  
 						All donations are tax deductible.</p>
 						<p> Please <a href="contact-us"> <strong>contact us</strong> </a>for further information.</p>	
 					</div>
-					<div class="block col-sm-3">
+					<div class="block col-sm-3 footer-p">
 						<h3>Contact Us</h3>
 						 <address>
 							<strong>Marralomeda Charitable Trust</strong>
@@ -32,7 +32,7 @@
 							<a href="mailto:admin@marralomeda.org.nz">admin@marralomeda.org.nz</a>
 						</address>
 					</div>
-					<div class="block col-sm-3">
+					<div class="block col-sm-3 footer-p">
 						<h3>Helpful Links</h3>
 						<ul class="footer-links">
 							<li><a  target="_blank" href="https://www.nzdsn.org.nz/">NZ Disability Support</a></li>
