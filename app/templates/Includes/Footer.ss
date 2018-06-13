@@ -6,7 +6,7 @@
 						
 						<h3>Employment</h3>
 						<p>Marralomeda employs people in a variety of roles to support our Community Members.  We are often looking for Community Support Workers, Residential Assistants and Volunteers.</P>  
-						<p>If you are interested in working at Marralomeda in either a paid or unpaid capacity then please<a href="contact-us"> <strong>contact us</strong> </a>to see what is available.
+						<p>If you are interested in working at Marralomeda in either a paid or unpaid capacity then please<a href="about-us"> <strong>click here</strong> </a>to see what is available.
 						</p>
 					</div>
 					

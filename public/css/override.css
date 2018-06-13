@@ -32,6 +32,7 @@ btn-lg, .btn-group-lg>.btn {
 
 #footer-top h3 {
     font-weight:bold;
+    color: black;
 }
 
 #footer-top .block {
@@ -41,6 +42,11 @@ btn-lg, .btn-group-lg>.btn {
 #footer {
     background-color:  #7CC7ED;
 }
+
+#footer-top a {
+    color:black;
+}
+
 
 #footer #copyright {
     background-color:   #e6e6e6;
@@ -64,7 +70,8 @@ btn-lg, .btn-group-lg>.btn {
 }
 
 .footer-p p, .footer-p address, .footer-p a {
-    color: #333333;
+    color:black;
+    font-size: 1.5rem;
 }
 
 /* Aboutus
