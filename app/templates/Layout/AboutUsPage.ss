@@ -32,12 +32,9 @@
            		 <div class="aside" data-aos="flip-left">
                 	<p>“To love people is to recognise their gift and help then use it and deepen it.  A community is  beautiful when all its members are using their talents fully”.<small>--Jean Vanier</small></p>.
 				</div>
-			<!--
+			
             <div class="aside" id="aside2">
                 <p>"Our key point of philosophy is that people who live in the community can have full, meaningful lives, doing what they want to do".</p>
-            </div>
-			-->
-      
             </div>
 					
 				</div>
