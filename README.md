@@ -8,6 +8,7 @@ Marralomeda is a website built based on [SilverStripe](https://www.silverstripe.
 - HTML5 and CSS3
 - Bootstrap 3
 - AWS EC2
+- Apache
 - MySQL
 
 
