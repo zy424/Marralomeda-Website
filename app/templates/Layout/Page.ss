@@ -1,5 +1,5 @@
 
-				
+		<% include Banner %>		
 		<!-- BEGIN CONTENT -->
 		<div class="content">
 			<div class="container">
@@ -7,6 +7,7 @@
 				<div class="main col-sm-8" />
 					$Content
 					$Form
+				
 				</div>
 					
 					<div class="sidebar gray col-sm-4">
@@ -20,6 +21,6 @@
 						<% end_if %>
 					</div>
 				</div>
-			</div><% include Banner %>
+			</div>
 		</div>
 		<!-- END CONTENT -->
