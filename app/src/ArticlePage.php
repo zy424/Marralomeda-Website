@@ -23,7 +23,7 @@
 
         private static $has_one = [
             'Photo' => Image::class,
-            'Brochure' => File::class
+            'Document' => File::class
         ];
 
         private static $has_many = [
@@ -36,7 +36,7 @@
 
         private static $owns = [
             'Photo',
-            'Brochure',
+            'Document',
         ];
 
         public function CategoriesList()
@@ -62,10 +62,10 @@
             // $fields->addFieldToTab('Root.Attachments', UploadField::create('Photo'));
             // $fields->addFieldToTab('Root.Attachments', UploadField::create('Brochure','Travel brochure, optional (PDF only)'));
             $fields->addFieldToTab('Root.Attachments', $photo = UploadField::create('Photo'));
-            $fields->addFieldToTab('Root.Attachments', $brochure = UploadField::create('Brochure','Travel brochure, optional (PDF only)'));
+            $fields->addFieldToTab('Root.Attachments', $doc = UploadField::create('Document','Document, optional (PDF only)'));
 
             $photo->setFolderName('travel-photos');
-            $brochure->setFolderName('travel-documents')->getValidator()->setAllowedExtensions(array('pdf'));
+            $doc->setFolderName('travel-documents')->getValidator()->setAllowedExtensions(array('pdf'));
 
             $fields->addFieldToTab('Root.Categories', CheckboxSetField::create(
                 'Categories',

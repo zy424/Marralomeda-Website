@@ -34,11 +34,11 @@
                 </div>
 				
 				<div class="share-wraper col-sm-12 clearfix">
-                    <% if $Brochure %>
+                    <% if $Document %>
                     <div class="row">
-                    <% with $Brochure %>
+                    <% with $Document %>
                     <div class="col-sm-12">
-                    <a href="$URL" class="btn btn-warning btn-block"><i class="fa fa-download"></i> Download brochure [$Extension] ($Size)</a>                  
+                    <a href="$URL" class="btn btn-warning btn-block"><i class="fa fa-download"></i> Download document [$Extension] ($Size)</a>                  
                     </div>
                     <% end_with %>
                     </div>
