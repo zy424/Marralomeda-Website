@@ -58,6 +58,7 @@
 			<div class="main home-main col-sm-8">
 			<div class= "home-philosophy" data-aos="flip-left"> 
 			<h1 class="section-title">Marralomeda Philosophy</h1>
+		
 				<div data-aos="zoom-in">
 					<p>
 						Marralomeda is a Christian community. We believe that each person with an intellectual disability is fully a person with all the rights of a human being and above all the right to be loved, recognised and respected for him/herself.
@@ -145,7 +146,7 @@
 					<li class="col-md-12">
 						<div class="image">
 							<a href=$Link></a>
-							$Photo.Fit(70,70)	
+							$Photo	
 						</div>
 						
 						<ul class="top-info">
@@ -169,7 +170,7 @@
 						<% loop $PopularActivities(5) %>
 						<li class="col-lg-12">
 							<a href=$Link>
-								$Photo.Fit(100,100)
+								$Photo
 							</a>
 							<div class="info">										
 								<h5>$Name</a></h4>

@@ -127,7 +127,7 @@
 					<li class="col-md-12">
 						<div class="image">
 							<a href=$Link></a>
-							$Photo.Fit(100,100)
+							$Photo
 						</div>
 						
 						<ul class="top-info">
